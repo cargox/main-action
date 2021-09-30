@@ -34,9 +34,11 @@ runs:
     with:
       node-version: 14
   - name: Add plugin for conventional commits
+    shell: bash
     run: npm install conventional-changelog-conventionalcommits
     working-directory: ./.github/workflows
   - name: Get Next Release Version
+    shell: bash
     id: get-next-release-version
     working-directory: ./.github/workflows
     env:
