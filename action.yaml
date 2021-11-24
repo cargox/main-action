@@ -23,7 +23,7 @@ inputs:
   git_user_name:
     description: "Git user name"
     required: true
-  gh_user_email:
+  git_user_email:
     description: "Git user email"
     required: true
 runs:
